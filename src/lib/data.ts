@@ -13,7 +13,7 @@ export const getCategoryData = (slug: string) => {
         "talim": "Ta'lim",
         "sogliqni-saqlash": "Sog'liqni saqlash",
         "yoshlar": "Yoshlar",
-        "sanat": "San'at",
+        "sanat": "Sanat",
         "it": "IT"
     };
 

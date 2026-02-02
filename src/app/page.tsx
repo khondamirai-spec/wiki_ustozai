@@ -25,8 +25,8 @@ const categories = [
   },
   {
     id: "sanat",
-    name: "San'at",
-    image: "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=1000&auto=format&fit=crop",
+    name: "Sanat",
+    image: "/category_sanat.jpg",
   },
   {
     id: "it",
