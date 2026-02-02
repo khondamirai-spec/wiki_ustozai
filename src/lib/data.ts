@@ -41,7 +41,7 @@ export const getCategoryData = (slug: string) => {
             company: "Korzinka.uz",
             image: "/BIZNES/Zafar_Xoshimov.jpg",
             quote: "Katta pul emas, to‘g‘ri hisob yutadi!\n\nBiznesni orzu bilan emas, imkoniyat bilan boshlash kerak. O‘zing ko‘tara oladigan riskni tanla. Pul yetmaydigan joyga sakrash — jasorat emas, xato. Kichikdan boshlagan biznes barqaror o‘sadi. Avval omon qolish, keyin kengayish. Shoshilish — eng qimmat xato.",
-            fullImage: "/Zafar_Xoshimov/photo_2026-02-02_15-52-37.jpg"
+            fullImage: "/Zafar_Xoshimov/image.png"
         };
     }
 
