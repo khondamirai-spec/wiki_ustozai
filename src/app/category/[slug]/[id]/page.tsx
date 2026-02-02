@@ -18,6 +18,11 @@ export default async function PersonPage({
         notFound();
     }
 
+    // Split quote into title and body for the wikihow style
+    const quoteLines = person.quote?.split('\n\n') || [];
+    const quoteTitle = quoteLines[0];
+    const quoteBody = quoteLines.slice(1).join('\n\n');
+
     return (
         <main className={styles.container}>
             <header className={styles.header}>
@@ -30,7 +35,14 @@ export default async function PersonPage({
                 </div>
             </header>
 
-            <div className={styles.content}>
+            <div className={styles.wikiContent}>
+                {quoteTitle && (
+                    <div className={styles.wikiHeader}>
+                        <div className={styles.numberBox}>1</div>
+                        <h2 className={styles.wikiTitle}>{quoteTitle}</h2>
+                    </div>
+                )}
+
                 <div className={styles.imageContainer}>
                     <img
                         src={person.fullImage || person.image}
@@ -39,14 +51,11 @@ export default async function PersonPage({
                     />
                 </div>
 
-                {person.quote && (
-                    <div className={styles.quoteCard}>
-                        <div className={styles.quoteHeader}>
-                            <span className={styles.quoteNumber}>1</span>
-                        </div>
-                        <div className={styles.quoteText}>
-                            {person.quote}
-                        </div>
+                {quoteBody && (
+                    <div className={styles.wikiBody}>
+                        <p className={styles.wikiText}>
+                            {quoteBody}
+                        </p>
                     </div>
                 )}
             </div>
