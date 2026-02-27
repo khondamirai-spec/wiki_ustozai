@@ -35,27 +35,54 @@ export default async function PersonPage({
                 </div>
             </header>
 
-            <div className={styles.wikiContent}>
-                {quoteTitle && (
-                    <div className={styles.wikiHeader}>
-                        <div className={styles.numberBox}>1</div>
-                        <h2 className={styles.wikiTitle}>{quoteTitle}</h2>
-                    </div>
-                )}
+            <div className={styles.stepsList}>
+                {person.steps ? (
+                    person.steps.map((step) => (
+                        <div key={step.id} className={styles.wikiContent}>
+                            <div className={styles.wikiHeader}>
+                                <div className={styles.numberBox}>{step.id}</div>
+                                <h2 className={styles.wikiTitle}>{step.title}</h2>
+                            </div>
 
-                <div className={styles.imageContainer}>
-                    <img
-                        src={person.fullImage || person.image}
-                        alt={person.name}
-                        className={styles.image}
-                    />
-                </div>
+                            <div className={styles.imageContainer}>
+                                <img
+                                    src={step.image}
+                                    alt={step.title}
+                                    className={styles.image}
+                                />
+                            </div>
 
-                {quoteBody && (
-                    <div className={styles.wikiBody}>
-                        <p className={styles.wikiText}>
-                            {quoteBody}
-                        </p>
+                            <div className={styles.wikiBody}>
+                                <p className={styles.wikiText}>
+                                    {step.text}
+                                </p>
+                            </div>
+                        </div>
+                    ))
+                ) : (
+                    <div className={styles.wikiContent}>
+                        {quoteTitle && (
+                            <div className={styles.wikiHeader}>
+                                <div className={styles.numberBox}>1</div>
+                                <h2 className={styles.wikiTitle}>{quoteTitle}</h2>
+                            </div>
+                        )}
+
+                        <div className={styles.imageContainer}>
+                            <img
+                                src={person.fullImage || person.image}
+                                alt={person.name}
+                                className={styles.image}
+                            />
+                        </div>
+
+                        {quoteBody && (
+                            <div className={styles.wikiBody}>
+                                <p className={styles.wikiText}>
+                                    {quoteBody}
+                                </p>
+                            </div>
+                        )}
                     </div>
                 )}
             </div>
