@@ -47,7 +47,7 @@ export const getCategoryData = (slug: string) => {
             id: 1,
             name: "Zafar Xoshimov",
             company: "Korzinka.uz",
-            image: "/BIZNES/Zafar_Xoshimov.jpg",
+            image: "/Zafar_Xoshimov/photo_2026-04-24_15-37-25.jpg",
             steps: [
                 {
                     id: 1,
