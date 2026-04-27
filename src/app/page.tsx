@@ -14,9 +14,9 @@ const categories = [
     image: "/category_ta'lim.png",
   },
   {
-    id: "sogliqni-saqlash",
-    name: "Sog'liqni saqlash",
-    image: "/category_health.png",
+    id: "sport",
+    name: "Sport",
+    image: "/category_sport.avif",
   },
   {
     id: "yoshlar",

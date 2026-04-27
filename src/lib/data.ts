@@ -19,7 +19,7 @@ export const getCategoryData = (slug: string) => {
     const categoryNames: Record<string, string> = {
         "biznes": "Biznes",
         "talim": "Ta'lim",
-        "sogliqni-saqlash": "Sog'liqni saqlash",
+        "sport": "Sport",
         "yoshlar": "Yoshlar",
         "sanat": "Sanat",
         "it": "IT"
@@ -123,6 +123,45 @@ export const getCategoryData = (slug: string) => {
                     title: "Qanday qilib bu darajaga erishdi? — Mantiqiy tahlil",
                     text: "1. Ilmiy va Kasbiy Ta’lim: Bilim va xalqaro tajriba.\n2. Dastlabki O‘rganish: IT va qurilishdagi amaliy maktab.\n3. Innovatsiya: Yangi texnologiyalarni qo‘llash.\n4. Bozorni o‘rganish: Raqobat va ehtiyojlarni chuqur tahlil qilish.\n5. Jamoaviy Boshqaruv: Yetakchilik mahorati.",
                     image: "/Murod Nazarov/photo_2026-04-21_15-58-40.jpg"
+                }
+            ]
+        };
+
+        items[2] = {
+            id: 3,
+            name: "Jahongir Ortiqxo'jayev",
+            company: "Tadbirkor, Akfa va Artel asoschisi",
+            image: "/Jahongir Ortixo‘jayev/photo_2026-04-25_11-46-08.jpg",
+            steps: [
+                {
+                    id: 1,
+                    title: "1.Qanday qilib yirik biznes imperiya va zamonaviy infratuzilma barpo etish mumkin? (Jahongir Ortixo‘jayev tajribasi)",
+                    text: "Jahongir Ortixo‘jayev — O‘zbekistonning eng taniqli tadbirkorlaridan biri, Akfa va Artel brendlari asoschisi, shuningdek, Toshkent shahrining sobiq hokimi. Uning faoliyati masshtabli loyihalar, ishlab chiqarishni mahalliylashtirish va \"agressiv\" o‘sish strategiyasi bilan ajralib turadi.\n\nJahongir Ortixo‘jayev 1975-yil 2-yanvarda Toshkentda tug‘ilgan. Toshkent davlat iqtisodiyot universitetini tamomlagan. Uning muvaffaqiyati savdo emas, aynan ishlab chiqarishdan boshlangan.\n\nBo‘shliqni to‘ldirish: 2000-yillar boshida O‘zbekiston bozorida alyuminiy profillarga bo‘lgan talabni sezib, Akfa kompaniyasiga asos solgan.\n\nBrend yaratish: Shunchaki mahsulot sotish emas, balki xalq tan oladigan brend shakllantirishga e’tibor qaratgan.",
+                    image: "/Jahongir Ortixo‘jayev/photo_2026-04-25_11-46-08.jpg"
+                },
+                {
+                    id: 2,
+                    title: "2.Diversifikatsiya va \"Artel\" fenomeni",
+                    text: "Maqsad faqat deraza emas, balki har bir xonadonga kirib borish edi.\n\nMahalliylashtirish: Maishiy texnika bozorini xorijiy brendlar egallab turgan bir paytda, mahalliy ishlab chiqarishni yo‘lga qo‘ydi.\n\nHamkorlik: Samsung kabi gigantlar bilan hamkorlik qilib, texnologik tajriba o‘rgandi va uni o‘z brendiga tatbiq etdi.                                                           Klaster tizimi: Ortixo‘jayev biznesda \"zanjir\" uslubidan foydalanadi. Masalan, qurilish bozoriga kirganda, u nafaqat rom, balki qurilish qorishmalari, panellar, radiatorlar va hatto liftlar ishlab chiqarishni ham yo‘lga qo‘ydi (Discovery, Royal kabi brendlar).\n\nMedia va Marketing: Brendlarini targ‘ib qilish uchun u mamlakatdagi eng yirik reklama agentliklaridan biri — JMP (Jahongir Marketing Project) ga asos soldi. Bu unga bozorda axborot ustunligini berdi.",
+                    image: "/Jahongir Ortixo‘jayev/photo_2026-04-25_11-46-16.jpg"
+                },
+                {
+                    id: 3,
+                    title: "3. Davlat boshqaruvi va \"Toshkent City\" epoxasi",
+                    text: "2018-yilda Ortixo‘jayev kutilmaganda Toshkent shahri hokimi etib tayinlandi. Bu davr shahar qiyofasining keskin o‘zgarishi bilan esda qoldi.\nDavlat-xususiy sheriklik: U hokim bo‘lgan davrda Toshkentda parklarni boshqaruvga berish va ularni modernizatsiya qilish trendini boshlab berdi (G‘afur G‘ulom, Milliy bog‘ loyihalari).\nTadbirkorlik mentaliteti boshqaruvda: Hokimiyatga biznes tezkorligini olib kirdi. Qarorlar qabul qilish va loyihalarni amalga oshirish sur’ati keskin oshdi.\n\nUrbanizatsiya: Toshkent City kutilganidan tezroq qurildi. Bu loyiha uning \"qiyin vazifalarni uddalash\" qobiliyatini ko‘rsatdi.                                    \n\nDigital Toshkent: Shahar boshqaruviga raqamli texnologiyalarni (Halk Nazorati, Situatsion markaz) olib kirdi. Uning maqsadi shaharni \"kompaniya\" kabi samarali boshqarish edi.",
+                    image: "/Jahongir Ortixo‘jayev/photo_2026-04-25_11-46-27.jpg"
+                },
+                {
+                    id: 4,
+                    title: "4.Inqirozlar va chidamlilik (Crisis Management)",
+                    text: "Har qanday yirik shaxs kabi, u ham tanqidlar va siyosiy inqirozlarga duch keldi. 2023-yilgi energetik inqirozdan so‘ng hokimlikdan ketishi uning faoliyatidagi eng og‘ir burilish nuqtasi bo‘ldi.\n\nXulosa chiqarish: Lavozimdan ketgach, u yana to‘liq biznesga qaytdi va e’tiborini yangi loyihalarga (Magic City, oziq-ovqat sanoati va h.k.) qaratdi.\n\nMoslashuvchanlik: Siyosatdan biznesga qaytishda pauza qilmadi, aksincha, yangi masshtablarni egallashda davom etdi.",
+                    image: "/Jahongir Ortixo‘jayev/photo_2026-04-25_11-46-35.jpg"
+                },
+                {
+                    id: 5,
+                    title: "5.\"Muvaffaqiyat formulasi\" — Jahongir Ortixo‘jayevdan maslahatlar",
+                    text: "Uning turli intervyulari va chiqishlaridan kelib chiqadigan asosiy tamoyillar:\n\nVaqtni qadrlash: \"Men uchun eng qimmat narsa — vaqt.\" U har bir soniyadan maksimal foyda olishga intiladi.\n\nKatta o‘ylash: Agar loyiha boshlasangiz, u shahar yoki mamlakat miqyosida aks sado berishi kerak.\n\nJamoaga ishonch: U o‘z atrofida sadoqatli va professional jamoani jipslashtira olgan.",
+                    image: "/Jahongir Ortixo‘jayev/photo_2026-04-25_11-46-42.jpg"
                 }
             ]
         };
@@ -329,6 +368,87 @@ export const getCategoryData = (slug: string) => {
                         title: "5. Muvaffaqiyatning mantiqiy zanjiri (Xulosa)",
                         text: "1. Ildiz + Akademik bilim: Ustoz maktabi va oliy ta’lim sintezi.\n2. Format topish: Milliy ohanglarni zamonaviy talablar asosida taqdim etish.\n3. Standartlashtirish: Ijodiy jarayonlarni yuqori sifatli \"mahsulot\" darajasiga ko'tarish.\n4. Institutsional darajaga o‘tish: Shaxsiy muvaffaqiyatni soha tizimini rivojlantirishga yo'naltirish.",
                         image: "/Ozodbek Nazarqulov/photo_2026-04-21_14-18-10.jpg"
+                    }
+                ]
+            }
+        ];
+    }
+
+    if (slug === "sport") {
+        items = [
+            {
+                id: 1,
+                name: "Javohir Sindarov",
+                company: "Xalqaro grossmeyster",
+                image: "/Javohir Sindarov/photo_2026-04-25_17-43-00.jpg",
+                steps: [
+                    {
+                        id: 1,
+                        title: "1. Qanday qilib shaxmatda dunyo cho‘qqisiga chiqish mumkin? (Javohir Sindarov tajribasi)",
+                        text: "Javohir Sindarov — o‘zbek shaxmat maktabining yorqin vakili, tarixdagi eng yosh grossmeysterlardan biri va Butunjahon shaxmat olimpiadasi chempioni. Uning yo‘li — erta boshlangan mehnat va temir intizom namunasidir.\n\nErta start va poydevor qo‘yish:\n\nJavohir 2005-yil 8-dekabrda Toshkentda tug‘ilgan. Uning shaxmatga kirib kelishi tasodif emas, balki oilaviy muhit natijasidir.\n\n4 yoshda boshlangan sayohat: U shaxmat donalarini surishni juda erta o‘rgangan. Bu unga \"shaxmat tilida\" ona tilidek gapirish imkonini bergan.\n\nBirinchi murabbiy: Bobosi Komil Sindarov uning ilk ustozi va asosiy motivatori bo‘lgan. Bu bosqichda asosiysi — bolada o‘yinga bo‘lgan chinakam ishtiyoqni uyg‘otishdir.",
+                        image: "/Javohir Sindarov/photo_2026-04-25_17-43-00.jpg"
+                    },
+                    {
+                        id: 2,
+                        title: "2. Rekordlar sari intilish (Grossmeysterlik sari)",
+                        text: "Javohir shaxmat tarixida o‘z ismini oltin harflar bilan yozishni maqsad qilgan edi.\n\nTarixiy natija: 2018-yil oktyabr oyida, 12 yoshu 10 oyligida grossmeysterlik unvonini qo‘lga kiritdi. O‘sha paytda u bu ko‘rsatkich bo‘yicha dunyoda 2-o‘rinda edi.                                                                                                                                                                                                               Karyera cho‘qqilari: U 13 yoshga yetmasdan grossmeyster bo‘lish orqali Sergey Karjakin va Magnus Karlsen kabi afsonalar qayd etgan natijalarga yaqinlashdi. Bu unga xalqaro turnirlarga taklifnomalar eshigini ochdi.\n\nO‘zbekiston chempionligi: Bir necha bor turli yosh toifalarida O‘zbekiston chempioni bo‘lishi uning mamlakatdagi yetakchiligini erta tasdiqladi.\n\nDars: Muvaffaqiyat yosh tanlamaydi. Eng muhimi — maqsadni aniq qo‘yish va unga erishish uchun har kuni 8-10 soatlab mashg‘ulot o‘tkazish.",
+                        image: "/Javohir Sindarov/photo_2026-04-25_17-43-16.jpg"
+                    },
+                    {
+                        id: 3,
+                        title: "3. Jamoaviy ruh va \"Olimpiada qahramoni\"",
+                        text: "Shaxmat individual sport bo‘lsa-da, Javohir jamoada ishlashning ustasi ekanini isbotladi.\n\nChennai-2022: Hindistonda o‘tgan 44-shaxmat olimpiadasida O‘zbekiston terma jamoasi safida oltin medalni qo‘lga kiritdi. U o‘z doskasida eng qiyin vaziyatlarda ham jamoasini qutqarib qola oldi.                                                                                                                                                      Oltin avlod: Javohirni ko‘pincha Nodirbek Abdusattorov bilan birga tilga olishadi. Ular birgalikda O‘zbekiston shaxmatining \"Yangi to‘lqini\"ni yaratishdi. Olimpiadadagi g‘alaba bu ikki yosh iste’dodning o‘zaro uyg‘unligi natijasidir.\n\nPsixologik barqarorlik: Kuchli bosim ostida ham sovuqqonlikni saqlash — uning asosiy quroli.",
+                        image: "/Javohir Sindarov/photo_2026-04-25_17-43-24.jpg"
+                    },
+                    {
+                        id: 4,
+                        title: "4. Strategik fikrlash va universal uslub",
+                        text: "Sindarovning o‘yin uslubi vaqt o‘tishi bilan taktik hujumlardan chuqur pozitsion o‘yinga o‘zgardi.\n\nMoslashuvchanlik: U raqibga qarab o‘z strategiyasini o‘zgartira oladi. Bu zamonaviy \"kompyuter shaxmati\" davrida omon qolishning yagona yo‘li.                                                                                                                                                                                                                                           Zamonaviy shaxmatda \"Stockfish\" kabi kuchli dvigatellar bilan ishlash muhim. Javohir kompyuter tahlillaridan samarali foydalanadi, lekin doim o‘zining kreativ g‘oyalarini ham saqlab qolishga intiladi.\n\nAnaliz: Har bir mag‘lubiyatdan so‘ng u soatlab o‘z xatolarini tahlil qiladi. Uning uchun xato — bu dars.",
+                        image: "/Javohir Sindarov/photo_2026-04-25_17-43-32.jpg"
+                    },
+                    {
+                        id: 5,
+                        title: "5. Jahon elitasiga kirish (Top-100 va undan yuqori)",
+                        text: "Bugungi kunda Javohir dunyoning eng kuchli shaxmatchilari reytingida mustahkam o‘rin egallab kelmoqda.\n\nNufuzli turnirlar: \"Tata Steel Chess\" va Jahon Kubogi kabi yirik musobaqalarda Magnus Karlsen kabi gigantlar bilan munosib kurashmoqda.\nElita sari: Dunyo shaxmatida \"2700 reyting\" chegarasi — bu super-grossmeysterlar klubi hisoblanadi. Javohirning hozirgi asosiy maqsadi — barqaror tarzda ushbu ko‘rsatkichni saqlab qolish va Jahon toji uchun nomzodlar turniriga yo‘llanma olish.\nO‘sish to‘xtamaydi: U 2700 (Super-grossmeyster) reyting barini zabt etishni maqsad qilgan.",
+                        image: "/Javohir Sindarov/photo_2026-04-25_17-43-40.jpg"
+                    }
+                ]
+            },
+            {
+                id: 2,
+                name: "Bahodir Jalolov",
+                company: "Ikki karra Olimpiada chempioni",
+                image: "/Bahodir Jalolov/photo_2026-04-27_15-56-11.jpg",
+                steps: [
+                    {
+                        id: 1,
+                        title: "1. Qanday qilib boks olamida mutlaq cho‘qqiga chiqish mumkin? (Bahodir Jalolov tajribasi)",
+                        text: "Bahodir Jalolov — o‘zbek boksi afsonasi, og‘ir vazn toifasida ikki karra Olimpiada va jahon chempioni. Uning \"Big B\" laqabi ostidagi g‘alabalari ortida temir intizom va strategik yondashuv yotadi.\n\nBahodir 1994-yil 8-iyulda Surxondaryo viloyatida tug‘ilgan. Uning sportdagi ilk qadamlari boshqa sport turidan boshlangan.\n\nFutboldan boksga: Dastlab futbolchi bo‘lishni orzu qilgan Bahodir, jismoniy tuzilishi (bo‘yi va vazni) tufayli murabbiylar maslahati bilan boksga o‘tadi.\n\nDars: O‘z tabiiy imkoniyatlaringizni tahlil qiling va ulardan maksimal foyda olish mumkin bo‘lgan sohani tanlang.",
+                        image: "/Bahodir Jalolov/photo_2026-04-27_15-56-11.jpg"
+                    },
+                    {
+                        id: 2,
+                        title: "2. Murabbiylar maktabi va Chirchiq olimpiya zaxiralari kolleji",
+                        text: "Professional sportda poydevor — bu to‘g‘ri ta’lim.\n\nTizimli tayyorgarlik: Chirchiqdagi kollejda Bahodir boksning texnik asoslarini o‘rgandi. U yerda o‘z ustida tinimsiz ishlab, og‘ir vazndagi \"og‘ir\" harakatlarni yengil va tezkor qilishga erishdi.   \n                                                                                                                                                                                                                                                                    \n\"Oyoq o‘yini\" (Footwork): Odatda og‘ir vazndagi bokschilar sekin harakat qilishadi. Bahodirning o‘ziga xosligi — uning yengil vazndagi bokschilardek tezkor harakatlanishidir. Bu raqibga zarba berish uchun qulay nuqta qoldirmaydi.\nIntizom: Har kuni ertalabki mashg‘ulotlar va murabbiylarning ko‘rsatmalariga so‘zsiz bo‘ysunish uning xarakterini shakllantirdi.",
+                        image: "/Bahodir Jalolov/photo_2026-04-27_15-56-21.jpg"
+                    },
+                    {
+                        id: 3,
+                        title: "3. Rio-2016 darsi va mag‘lubiyatdan kuch olish",
+                        text: "Har qanday muvaffaqiyat yo‘li mag‘lubiyatlarsiz kechmaydi. 2016-yilgi Rio Olimpiadasida Bahodir sovrinsiz qaytadi.\n\nXatolar ustida ishlash: Rio-2016 dagi mag‘lubiyatdan so‘ng u o‘z intervyularida: \"Men o‘shanda yosh edim va tayyorgarligim yetarli emasligini tushunib yetdim\", deb tan olgan. Bu tan olish unga kibrdan xoli bo‘lib, yangidan o‘sish imkonini berdi.\n\nXulosa chiqarish: Mag‘lubiyatdan tushkunlikka tushmay, kamchiliklar ustida ishladi. Aynan shu yutqaziq uni Tokioga yanada kuchliroq bo‘lib kelishiga sabab bo‘ldi.\nLiderlik sifatlari: Terma jamoa sardori sifatida u boshqa bokschilarga ham motivatsiya berishni o‘rgandi\nPsixologik tayyorgarlik: Ringda faqat mushaklar emas, balki iroda ham g‘alaba qozonishini tushunib yetdi.",
+                        image: "/Bahodir Jalolov/photo_2026-04-27_15-56-32.jpg"
+                    },
+                    {
+                        id: 4,
+                        title: "4. Havaskor va professional boksni uyg‘unlashtirish",
+                        text: "Bahodir Jalolov havaskor boksda Olimpiada chempioni bo‘lish bilan birga, professional boksda ham o‘z yo‘lini ochdi.\n\nUniversalizm: U professional ringdagi kuchli zarba berish texnikasini havaskor boksga olib kirdi. Bu esa uning zarbalarini raqiblar uchun \"halokatli\" qildi.\nKun tartibi: Bahodirning muvaffaqiyat siri — qat’iy rejim. U hatto bayram kunlari ham mashg‘ulotlarni qoldirmaydi. Uyqu, ovqatlanish va dam olish vaqti millisekundlargacha hisoblanga\nNatija: U o‘z vazn toifasida \"Nokautchi\" maqomini oldi.",
+                        image: "/Bahodir Jalolov/photo_2026-04-27_15-56-50.jpg"
+                    },
+                    {
+                        id: 5,
+                        title: "5. Tarixiy natija — Ikki karra Olimpiada chempionligi",
+                        text: "Tokio-2020 va Parij-2024 Olimpiadalari Bahodirni sport olamining mutlaq yetakchisiga aylantirdi.\n\nBarqarorlik: Ikki marta ketma-ket oltin medal olish — bu tasodif emas, balki yuqori darajadagi barqarorlik belgisidir.\n\nVatanparvarlik: Ringga O‘zbekiston bayrog‘ini ko‘tarib chiqish va har gal madhiya yangraganda ko‘ziga yosh জ্ঞolishi unga millionlab muxlislarning mehrini keltirdi.",
+                        image: "/Bahodir Jalolov/photo_2026-04-27_15-57-00.jpg"
                     }
                 ]
             }
